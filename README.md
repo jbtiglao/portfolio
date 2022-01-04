@@ -24,11 +24,11 @@ This portfolio page includes sections for my background, work, and contact infor
 
 ## Installation
 
-This application does not require installation. However, the HTML, CSS, images, and README files of this portfolio can be accessed through the author's GitHub repository at https://github.com/jbtiglao. Meanwhile, the deployed application can be viewed and accessed at (put link to deployed application here).
+This application does not require installation. However, the HTML, CSS, images, and README files of this portfolio can be accessed through the author's GitHub repository at https://github.com/jbtiglao. Meanwhile, the deployed application can be viewed and accessed at https://jbtiglao.github.io/portfolio/.
 
 ## Usage
 
-This portfolio can be viewed at the following GitHub deployed site: (link to deployed application).
+This portfolio can be viewed at the following GitHub deployed site: https://jbtiglao.github.io/portfolio/.
 
 The web page contains the following sections about the web developer: background (About Me), projects (Work), and contact information (Contact Me), in addition to links to the author's GitHub and social media accounts that contain extensions of her work and interests that prospective employers, hiring managers, or collaborators can check out. 
 
