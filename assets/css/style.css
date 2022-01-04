@@ -1,0 +1,325 @@
+/* Description: Primary stylesheet for Jane Tiglao Portfolio */
+/* Author: Jane Tiglao */
+
+:root {
+    --color: #554348; 
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #554348; 
+}
+
+header {
+    margin: 20px 20px 5px 20px;
+    padding: 5px;
+    width: 95%;
+    height: 150px;
+    background-color: #747578;
+    color: bisque;
+}
+
+main {
+    margin: 20px 20px 5px 20px;
+    padding: 5px;
+    width: 95%;
+    height: auto;
+    float: center;
+}
+
+/* Sidebar will contain the about me and contact me sections */
+aside {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  height: auto;
+  background-color: #8c9a9e;  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Footer will be below the work section */
+footer {
+    text-align: center;
+    clear: both;
+    margin: 20px 20px 20px 30px;
+    width: 95%;
+   
+}
+
+h1 {
+    margin: 40px 20px 20px 10px;
+    padding: 5px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--color);
+}
+
+h3 {
+    margin: 10px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #747578;
+}
+
+h1 span {
+    color: #a2f7c8;
+}
+
+h3 span {
+    color:rgb(57, 85, 128);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Style for all paragraphs */
+p {
+    text-align: justify;
+    margin: 0 20px 20px 20px;
+    padding: 5px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--color);
+}
+
+/* Navigation links scroll or jump to the relevant section or page when clicked */
+.nav {
+    margin-top: 5px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.nav ul {
+    list-style-type: none; 
+    margin: 10px 20px 20px 20px;
+    padding: 0;
+    height: 50%
+}
+
+.nav li {
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: normal;
+    color: bisque;
+}
+
+/* Nav links will change color on hover */
+.nav a:hover {
+    text-decoration: underline;
+    color: rgb(201, 228, 235);
+}
+
+/* Place about me section and recent photo in the upper left sidebar */
+.recent-photo img {
+    margin: 0 20px 20px 20px;
+    padding: 0;
+    width: 80%;
+    height: 80%;
+    border-radius: 180px; 
+    float: left;
+}
+
+/* Put work projects in containers */
+.container {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 69%;
+    height: 90%;
+    background-color: #d4f5f5;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Place contact information and subscription in the lower left sidebar */
+.contact-me li {
+    list-style-type: none;  
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 5px; 
+    font-family: var(--font-family);
+    font-size: 15px; 
+    color: var(--color);
+}
+
+.contact-me a {
+    color: var(--color);
+}
+
+/* Contact Me links will change color on hover */
+.contact-me a:hover {
+    color: #d4f5f5;
+}
+
+.contact-me img {
+    padding: 5px;
+    width: 20%;
+    height: 20%;
+} 
+
+.susbcribe {
+    margin: 0;
+    padding: 5px;
+}
+
+.subscribe ul {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.subscribe li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.subscribe li a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.subscribe img {
+    padding: 5px;
+    width: 20%;
+    height: 20%
+}
+
+/*  Put copyright, photo credit, terms, privacy, and back to top links in the footer */
+.footer p {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #d4f5f5;
+}
+
+.footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #d4f5f5;
+}
+
+.footer a {
+    list-style-type: none;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    color: #93b7be;
+}
+
+/* Footer links will change color on hover */
+.footer a:hover {
+    color: #747578;
+}
+
+/* Back to top button at the end of the page to scroll to the top when clicked */
+.button {
+    float: right;
+    margin: 0 70px 30px;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button a {
+    color: #d4f5f5;
+}
+
+/* Back to Top button will change color on hover */
+.button a:hover {
+    color: #747578;
+}
+
+/* Put project 1 on top and make image bigger than other projects  */
+/* Images should open to relevant project when clicked */
+/* Replace placeholder images and names as they are created in the course of the program */
+
+#first-project {
+    margin: 20px;
+    padding: 10px;
+}
+
+#first-project img {
+    margin: 70px 30px 20px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+}
+
+/* Other projects have smaller images, placed under first project */
+/* Arrange other project images in columns/rows of two */
+#column {
+    float: left;
+    margin: 10px 10px 20px 10px;
+    padding: 5px;
+    width: 45%;
+    height: 45%;
+}
+
+#column img {
+    margin: 5px 5px 5px 10px;
+    width: 95%;
+    height: 90%;
+}
+
+/* Clear float after image containers */
+#row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Media Queries */
+/* On screens that are 780px or less, set the background color to seagreen */
+@media screen and (max-width: 780px) {
+    body {
+        background-color: seagreen;
+    }
+}
+
+/* On screens that are 480px or less, set the background color to teal */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: teal;
+    }
+}
+
+
+
+
+
+
