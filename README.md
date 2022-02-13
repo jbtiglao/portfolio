@@ -10,8 +10,7 @@ This portfolio is created with these in views in mind, as well as the fact that 
 
 This portfolio page includes sections for my background, work, and contact information, as well as the required functionalities that resemble this project's given mock-up. It has the following appearance: 
 
-./images/screencap1_jtportfolio.jpg
-
+![portfolio](./assets/images/screencap1_jtportfolio.jpg)
 
 
 ## Table of Contents
@@ -28,7 +27,7 @@ This application does not require installation. However, the HTML, CSS, images, 
 
 ## Usage
 
-This portfolio can be viewed at the following GitHub deployed site: (link to deployed application).
+This portfolio can be viewed at the following GitHub deployed site: https://jbtiglao.github.io/portfolio/
 
 The web page contains the following sections about the web developer: background (About Me), projects (Work), and contact information (Contact Me), in addition to links to the author's GitHub and social media accounts that contain extensions of her work and interests that prospective employers, hiring managers, or collaborators can check out. 
 
@@ -37,13 +36,13 @@ To satisfy a typical employer or hiring manager's (user) needs, the portfolio ha
 
 - Given the need to sample the potential employee's work, when the user loads the portfolio, he/she/they are presented with the developer's name, a recent photo, and links to sections about her (About Me), her work (Work), and how to contact her (Contact Me).
 
-./images/screencap2_jtportfolio.jpg
+![header](./assets/images/screencap2_jtportfolio.jpg)
 
 - The portfolio has four navigational links: About Me, Work, Resume, and Contact Me. When the user clicks one of the links in the navigation, the UI scrolls or "jumps" to the corresponding section or page, in the case of the Resume.
 
 - When the user clicks on the link to the section about the developer's work, the UI scrolls to the Work section with titled images of the developer's applications. These applications are titled Projects 1 to 5.
 
-./images/screencap3_jtportfolio.jpg
+![main](./assets/images/screencap3_jtportfolio.jpg)
 
 - When the user is pressented with the deveoper's first application (Project 1), this application's image is larger in size than the others.
 
@@ -73,9 +72,9 @@ The links to the developer's social media accounts open to empty pages. These wi
 
 ## Credits
 
-Placeholder images for the Work section are from http://www.quotefancy.com.
+Placeholder images for the Work section are from [Quotefancy](https://www.quotefancy.com).
 
-Social media icons are purchased from BigDenDesign, http://www.etsy.com.
+Social media icons are purchased from BigDenDesign, [Etsy](https://www.etsy.com).
 
 The following books, materials, websites, and tutorials were consulted in the development of this project:
 
@@ -83,21 +82,21 @@ The following books, materials, websites, and tutorials were consulted in the de
 
 - Murach's HTML5 and CSS3 4th Edition by Anne Boehm and Zak Ruvalcaba, 2018, Mike Murach and Associates, Fresno, CA.
 
-- http://www.w3schools.com
+- [W3schools](https://www.w3schools.com)
 
-- Kevin Powell, Flexbox Basics, http://www.youtube.com
+- Kevin Powell, Flexbox Basics, [YouTube](https://www.youtube.com).
 
-- http://www.w3docs.com
+- [W3docs](https://www.w3docs.com)
 
-- http://freecodecamp.org
+- [Free Code Camp](https://freecodecamp.org)
 
-- http://sitepoint.com
+- [Sitepoint](https://sitepoint.com)
 
-- Coolors for IOS (http://www.coolors.co)
+- [Coolors for IOS](https://www.coolors.co)
 
-- http://www.stackoverflow.com
+- [Stackoverflow](https://www.stackoverflow.com)
 
-- http://csstricks.com 
+- [CSS Tricks](https://csstricks.com)
 
-- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- [Coding Bootcamp Professional README Guide](httpss://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
